@@ -1,0 +1,119 @@
+.left-float{
+    
+    float:left;
+    
+}
+
+.right-float{
+    float:right;
+}
+
+
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.button1{
+     
+    margin-right: 15px;
+    margin-top:20%;
+    background-color: #f29276;
+    height: 30px;
+    width:70px;
+    border-radius: 5px;
+    border-style: hidden;
+    transition: 0.2s;
+    transition-timing-function: ease-in;
+    
+}
+
+
+.button2{
+     
+    margin-right: 15px;
+    margin-top:20%;
+    background-color: #f26767;
+    height: 30px;
+    width:70px;
+    border-radius: 5px;
+    border-style: hidden;
+    transition: 0.2s;
+    transition-timing-function: ease-in;
+    
+}
+
+.button1:hover{
+    background-color: rgba(237, 94, 42, 0.95);
+    cursor:pointer;
+    color:azure;
+    
+}
+.button2:hover{
+    background-color: #f2370b;
+    cursor: pointer;
+    color:cornsilk;
+    
+}
+.friendreq
+{
+    
+    margin-right: 15px;
+    margin-top:14%;
+    background-color: #f26767;
+    height: 40px;
+    width:100px;
+    border-radius: 5px;
+    border-style: hidden;
+    transition: 0.2s;
+    transition-timing-function: ease-in;
+    
+}
+
+.disablelink{
+    color:white;
+    text-decoration: none;
+    pointer-events: none;
+    opacity: 0.5;
+}
+.enablelink{
+    color:green;
+    text-decoration: none;
+}
+.imagediv{
+    
+    height:62px;
+    margin-left: 7%;
+}
+
+
+.image{
+    
+    height:100%;
+    border-radius: 50%;
+}
+.maindiv{
+    
+    background-color:rgba(234, 186, 138, 0.42);
+    background-image: linear-gradient(to bottom,rgba(252, 3, 3, 0.44),rgba(57, 65, 74, 0.62));
+    
+    
+}
+
+.rightdiv{
+    
+    width:250px;
+}
+.leftdiv{
+    
+    width:350px;
+    height:62px;
+}
+.header
+{
+    margin-left:9%;
+    color:#0d7a8e;
+}

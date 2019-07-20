@@ -1,0 +1,55 @@
+#img{
+     height:100%;
+     width:100%;
+}
+#bar
+{
+    background-color:rgba(70, 77, 74, 0.29);
+    border-top-style: solid;    
+}
+
+#online{
+    animation-name: test;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+#imgdiv
+{
+    height: 300px;
+       
+}
+#maincard{
+    width:300px;
+    border-color: #98bafb;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 2px grey;
+    margin-top:7px;
+    margin-right:7px;
+    margin-bottom:17px;
+    
+}
+#team{
+    color:white;
+}
+
+@keyframes test{
+    
+    0%{
+        color:aquamarine;
+    }
+    
+    50%{
+        color: blueviolet;
+    }
+    
+    100%{
+        color:chartreuse;
+    }
+    
+    
+    
+}

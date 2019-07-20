@@ -1,0 +1,127 @@
+#details{
+    
+    height: 400px;
+    background-color: rgba(180, 58, 245, 0.78);
+    width:13%;
+    margin-left: 3%;
+    margin-top:3%;
+    opacity: 0.9;
+    outline: solid 5px pink;
+}
+#text{
+    
+    height: 500px;
+    background-color: rgba(226, 222, 206, 0.36);
+    width:65%;
+    margin:auto;
+    margin-top:2%;
+    margin-bottom: 2%;
+    outline:3px solid  #efd25b;
+    box-shadow: 2px 0px 5px 4px;
+    
+}
+
+/*#text:nth-child(odd)
+{
+    float:left;
+}
+#text:nth-child(even)
+{
+    float:right;
+}*/
+
+#submit{
+    
+
+    margin-top:7px;
+   width:65%;
+    height:80px;
+    margin-left:25%;
+   
+}
+
+
+.write{
+    float:left;
+    height: 100%;
+    width:70%;
+    
+}
+.write textarea {
+    width:98%;
+    height: 90%;
+    opacity: 0.7;
+    border:solid orange 2px;
+    background-color:lightgrey;
+    font-family: sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    word-spacing: -2px;
+}
+
+.write textarea:focus{
+    
+    opacity: 1;
+    border:solid green 2px;
+    background-color:white;
+    
+}
+.submitbutton{
+    float :left;
+    margin-top:5%;
+    margin-left:3%;
+    
+}
+
+.submitbutton button{
+      
+    background-color: #21ef21;
+    color:#7e32f7;
+    border-style: none;
+    border-radius: 5px;
+    margin-right: 17px;
+    font-size: 25px;
+    padding-left:5px;
+    transition:0.2s;
+}
+
+
+.submitbutton button:hover{
+    background-color: darkgreen;
+    color:antiquewhite;
+    border-style:solid;
+    border-width: thin;
+    border-color:black;
+    cursor:pointer;
+}
+
+
+
+#onlinediv{
+    
+    height:300px;
+    width:20%;
+    margin-right: 2%;
+    margin-top: 3%;
+    background-color: #95fff7;
+    outline:solid #7d9be0 5px;
+}
+#screen{
+     width:50%;
+    margin-left:12%;
+    
+
+    
+}
+
+#main{
+    
+    margin-top:2%;
+    border-color: #98bafb;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 2px grey;
+    margin-right:7px;
+    margin-left:7px;
+    margin-bottom:17px;
+}

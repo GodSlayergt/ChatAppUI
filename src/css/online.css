@@ -1,0 +1,25 @@
+.online-content{
+    padding-top: 7px;
+    padding-left: 7px;
+}
+.online-content span{
+    margin-right: 6px;
+}
+.online-content-sendreq{
+    
+    color:#f53c10;
+    text-decoration-line: underline;
+    transition: 0.2s;
+
+}
+.online-content-sendreq:hover{
+    
+    color:#f08231;
+    text-decoration-line: none;
+    cursor: pointer;
+
+}
+.online-conten-privatechat{
+    
+    
+}

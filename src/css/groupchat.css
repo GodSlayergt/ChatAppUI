@@ -1,0 +1,48 @@
+#groupchatboard{
+    
+
+    background-image:linear-gradient(to bottom,rgba(252, 3, 3, 0.44),rgba(57, 65, 74, 0.62)), url(../img/sidescreen.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height:100vh;
+    overflow-y: scroll;
+    padding-left: 7px;
+    
+}
+
+#groupchat{
+    
+    
+
+    
+}
+
+.input{
+    position: absolute;
+    top:2.5%;
+    left:64%;
+    height:30px;
+    opacity: 0.5;
+    font-size: 20px;
+    transition: 0.2s;
+    transition-timing-function: ease-in-out;
+}
+.input:hover,input:focus{
+    border-color:#f28298;
+    opacity: 1;
+    
+}
+/*.inputdiv{
+    margin-left:25px;
+    margin-top:17px;
+    position: relative;
+    width:25.5%;
+    background-image:linear-gradient(to bottom,rgba(252, 3, 3, 0.44),rgba(57, 65, 74, 0.62)), url(../img/sidescreen.jpg);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height:100vh;
+    background-color: black;
+    
+}*/

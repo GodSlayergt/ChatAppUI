@@ -1,0 +1,12 @@
+.detail-content{
+    margin-top:50%;
+    margin-bottom: 7px;
+    /*border:solid black 1px;*/
+    text-align: center;
+    color:aliceblue;
+}
+.detail-content div{
+    
+    margin-bottom: 7px;
+    
+}
